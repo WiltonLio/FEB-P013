@@ -17,6 +17,7 @@ import { HttpClientModule } from '@angular/common/http';
 })
 export class CadastrarAtendimentoComponent {
   formAtendimento: FormGroup;
+sucesso: any;
   constructor(private DatabaseConection: DatabaseConnectionService) {
     this.formAtendimento = new FormGroup({
       dateAtendimento: new FormControl('', [Validators.required]),

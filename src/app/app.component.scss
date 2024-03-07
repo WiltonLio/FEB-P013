@@ -86,4 +86,21 @@
     color: #007bff;
   }
   
+  .logo-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 1px;
+    opacity: 0.6;
+    fill-opacity: calc(1 - 0.6);
+    img {
+        max-width: 100%;
+        height: auto;
+        width: 100%;
+    }
+
+    body[_ngcontent-ng-c367196003] {
+      font-family: Arial, sans-serif;
+  }
+  }
   

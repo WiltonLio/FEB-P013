@@ -44,3 +44,17 @@ body {
   margin-top: 20px;
   color: green;
 }
+
+.logo-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 1px;
+  opacity: 0.6;
+  fill-opacity: calc(1 - 0.6);
+  img {
+      max-width: 100%;
+      height: auto;
+      width: 100%;
+  }
+}

@@ -4,7 +4,8 @@ body {
     
 }
 
-form {
+form[_ngcontent-ng-c2514517752] {
+    font-weight: bold;
     width: 100%;
     max-width: 600px;
     margin: 0 auto;
@@ -53,7 +54,8 @@ form button:hover {
     justify-content: center;
     align-items: center;
     padding-top: 1px;
-    opacity: 0.5;
+    opacity: 0.6;
+    fill-opacity: calc(1 - 0.6);
     img {
         max-width: 100%;
         height: auto;
